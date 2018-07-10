@@ -1,0 +1,20 @@
+package com.customnavigationdrawerwithactivity.navigationDrawer;
+
+import android.os.Bundle;
+
+import com.customnavigationdrawerwithactivity.R;
+
+
+/**
+ * Created by Krishan.Verma on 7/4/2018.
+ */
+
+public class PhotoActivityDrawer extends NavigationDrawerBaseActivity {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.photo_activity);
+        appBarTxt.setText("PhotoActivityDrawer");
+
+    }
+}
